@@ -26,38 +26,45 @@ void plus123()
 
 int main()
 {
+    cout << "화면에 그림을 그리는 프로그램입니다.\n";
+    cout << "학번 : 202127029\n";
+    cout << "이름 : 주진원\n";
     int X;
-    cout << "숫자를 입력해주세요 : ";
-    cin >> X;
+    while (true)
+    {
+
+        cout << "화면에 그릴 물체코드를 입력하세요 : ";
+        cin >> X;
     
-    if (X & 0b1)
-    {
-        cout << "\x1b[37m" << endl;
-        plus123();
+        if (X & 0b1)
+        {
+            cout << "\x1b[37m" << endl;
+            plus123();
+        }
+        if (X & 0b10)
+        {
+            cout << "\x1b[31m" << endl;
+            plus123();
+        }
+        if (X & 0b100){
+            cout << "\x1b[32m" << endl;
+            plus123();
+        }
+        if (X & 0b1000) {
+            cout << "\x1b[33m" << endl;
+            plus123();
+        }
+        if (X & 0b10000){
+            cout << "\x1b[36m" << endl;
+            plus123();
+        }
+        if (X & 0b100000){
+           cout << "\x1b[35m" << endl;
+           plus123();
+        }
+        if (X == 64){
+            break;
+        }
     }
-    if (X & 0b10)
-    {
-        cout << "\x1b[31m" << endl;
-        plus123();
-    }
-    if (X & 0b100){
-        cout << "\x1b[32m" << endl;
-        plus123();
-    }
-    if (X & 0b1000) {
-        cout << "\x1b[33m" << endl;
-        plus123();
-    }
-    if (X & 0b10000){
-        cout << "\x1b[36m" << endl;
-        plus123();
-    }
-   if (X & 0b100000){
-       cout << "\x1b[35m" << endl;
-       plus123();
-   }
-   if (X & 0b1000000){
-       exit(0);
-   }
 }
 
