@@ -22,16 +22,20 @@
     - 'TCL(Transaction Control Language)' : 트랜잭션 처리를 수행하는 SQL 문장.
     - COMMIT            : 데이터 조작 작업이 성공하면 모든 데이터 변경사항(입력, 수정, 삭제)을 반영하는 문장임.         
     - ROLLBACK          : 데이터 조작 작업이 실패하거나 작업을 취소하고 싶을 때 사용함.
-    
+
     - START TRANSACTION : 새로운 트랜잭션이 시작됨을 알리는 문장임.
         - BEGIN         : 위와 같음.
-            - START TRANSACTION 또는 BEGIN 문이 실행된 후에 입력된 DML 문장부터 COMMIT 문이나 ROLLBACK 문을 만날 때까지가 하나의 트랜잭션이 됨.
+        
+        - START TRANSACTION 또는 BEGIN 문이 실행된 후에 입력된 DML 문장부터 COMMIT 문이나 ROLLBACK 문을 만날 때까지가 하나의 트랜잭션이 됨.
 
     - SAVEPOINT         : 트랜잭션에 이름을 부여하는 문장임.
-        - SAVEPOINT 문을 사용하면 지정된 이름으로 트랜잭션이 시작되고, COMMIT이나 ROLLBACK 문을 만나면 트랜잭션이 종료됨.
+        - SAVEPOINT 문을 사용하면 지정된 이름으로 트랜잭션이 시작되고,
+        - COMMIT이나 ROLLBACK 문을 만나면 트랜잭션이 종료됨.
 
     - SET autocommit    : 트랜잭션을 처리하는 문장이 아니라 MySQL에서 자동 커밋(autocommit) 모드를 설정하는 문장임.
-        - 자동 커밋이 활성화되면 모든 DML 문장을 실행하고,  별도로 COMMIT 문을 실행하지 않아도 자동으로 데이터의 변경사항이 적용됨.  MySQL은 기본으로 자동 커밋 모드가 활성화되어 있음
+        - 자동 커밋이 활성화되면 모든 DML 문장을 실행하고, 
+        - 별도로 COMMIT 문을 실행하지 않아도 자동으로 데이터의 변경사항이 적용됨.  
+        - MySQL은 기본으로 자동 커밋 모드가 활성화되어 있음
 
 ### 데이터 제어어
 -------
