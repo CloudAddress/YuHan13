@@ -1,5 +1,5 @@
 # SQL 코드 정리 
-## 기본
+## 기본 (데이터 언어)
 ### 데이터 정의어
 -------
     - 'DDL(Data Definition Language)' : 뭔가를 정의할 떄 사용하는 SQL 문장.
