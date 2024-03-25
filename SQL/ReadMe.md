@@ -25,8 +25,8 @@
 
     - START TRANSACTION : 새로운 트랜잭션이 시작됨을 알리는 문장임.
         - BEGIN         : 위와 같음.
-        
-        - START TRANSACTION 또는 BEGIN 문이 실행된 후에 입력된 DML 문장부터 COMMIT 문이나 ROLLBACK 문을 만날 때까지가 하나의 트랜잭션이 됨.
+        - START TRANSACTION 또는 BEGIN 문이 실행된 후에 입력된 DML 문장부터 
+        - COMMIT 문이나 ROLLBACK 문을 만날 때까지가 하나의 트랜잭션이 됨.
 
     - SAVEPOINT         : 트랜잭션에 이름을 부여하는 문장임.
         - SAVEPOINT 문을 사용하면 지정된 이름으로 트랜잭션이 시작되고,
