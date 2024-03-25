@@ -28,8 +28,7 @@
 
 #### BLOB
 #### ENUM
-
-
+-------
 ### 숫자형
 -------
 
@@ -41,7 +40,7 @@
 #### DECIMAL[(M,D)] [UNSIGNED] [ZEROFILL]
 #### DOUBLE[(M,D)] [UNSIGNED] [ZEROFILL]
 
-
+------
 ### 날짜형
 ------
 #### DATE
