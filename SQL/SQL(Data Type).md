@@ -94,6 +94,20 @@
 ### 날짜형
 ------
 #### DATE
+    - 1000-01-01 ~ 9999-12-31까지 날짜를 지원함.
+    - MySQL에서는 기본으로 'YYYY-MM-DD' 형식을 사용함.
+
 #### DATETIME[(fsp)]
+    - 날짜뿐만 아니라 시간까지 입력할 수 있음.
+    - MySQL에서 사용하는 기본 형식은 'YYYY-MM-DD hh:mm:ss[.fraction]'임
+    - fsp는 fractional seconds precision으로 소수점 이하 초를 의미함
+
 #### TIME[(fsp)]
+    - 시간, 즉 시, 분, 초를 입력하는 데이터 타입임
+    - fsp는 0에서 6까지 넣을 수 있음, 생략하면 0이 적용됨
+
 #### YEAR
+    - 4자리 연도를 입력할 수 있는 데이터 타입
+    - 일반적으로 날짜만 사용하기보다는 날짜와 시간을 같이 사용하는 경우가 많아서 날짜형에서는 DATETIME을 가장 많이 사용함
+    - 이 외에도 TIMESTAMP가 있는데, TIMESTAMP는 DATETIME을 확장한 타입으로 시간대(TimeZone) 정보까지 입력 가능함
+    
