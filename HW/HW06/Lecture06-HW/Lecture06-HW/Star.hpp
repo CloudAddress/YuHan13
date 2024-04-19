@@ -30,29 +30,29 @@ public:
 		// 트라이 앵글 1개 완성!
 		//점1
 		glColor3f(r,g,b);
-		glVertex2f((0.0f + X), (0.6f + Y));
+		glVertex2f((0.000f + X), (0.006f + Y));
 		//점2
-		glVertex2f((-0.4f + X), (-0.6f + Y));
+		glVertex2f((-0.004f + X), (-0.006f + Y));
 		//점3
-		glVertex2f((0.1f + X), (0.0f + Y));
+		glVertex2f((0.001f + X), (0.000f + Y));
 
 		// 트라이 앵글 2개 완성!
 		//점1
 		glColor3f(r, g, b);
-		glVertex2f((-0.6f + X) , (0.1f + Y));
+		glVertex2f((-0.006f + X) , (0.001f + Y));
 		//점2
-		glVertex2f((0.3f + X), (-0.6f + Y));
+		glVertex2f((0.003f + X), (-0.006f + Y));
 		//점3
-		glVertex2f((0.05f+X), (0.1f+Y));
+		glVertex2f((0.0005f+X), (0.001f+Y));
 
 		// 트라이 앵글 3개 완성!
 		//점1
 		glColor3f(r, g, b);
-		glVertex2f((0.0f + X), (0.1f + Y));
+		glVertex2f((0.000f + X), (0.001f + Y));
 		//점2
-		glVertex2f((-0.4f + X), (-0.6f + Y));
+		glVertex2f((-0.004f + X), (-0.006f + Y));
 		//점3
-		glVertex2f((0.6f + X), (0.1f + Y));
+		glVertex2f((0.006f + X), (0.001f + Y));
 		glEnd();
 
 		
