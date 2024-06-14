@@ -1,7 +1,7 @@
 #include "Object.h"
 
 float B_xp = 0.1f;
-float B_yp = -0.5f;
+float B_yp = -0.9f;
 
 float A_P_xp = 0.0f;
 float A_P_yp = 1.0f;
@@ -13,7 +13,7 @@ float B_S_xp = 1.0f;
 float B_S_yp = 0.5f;
 
 float C_S_xp = 1.5f;
-float C_S_yp = 0.0f;
+float C_S_yp = 0.2f;
 
 float P_width = 0.3f;
 float P_hight = 0.5f;
@@ -25,7 +25,7 @@ float B_scale = 1.0f;
 float A_S_scale = 0.5f;
 float B_S_scale = 0.5f;
 float C_S_scale = 0.5f;
-float P_scale = 0.5f;
+float P_scale = 0.3f;
 
 float A_P_yv = 0.0f;
 float A_P_ya = -0.00001f;
